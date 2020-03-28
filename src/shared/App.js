@@ -8,11 +8,13 @@ import More from '../pages/More';
 class App extends Component {
   render() {
     return (
-      <div>
-        <Route exact path="/" Component={Home}/>
-        <Route path="/channel" Component={Channel}/>
-        <Route path="/more" Component={More}/>
-      </div>
+      <router>
+        <div>
+          <Route exact path="/" Component={Home}/>
+          <Route path="/channel" Component={Channel}/>
+          <Route path="/more" Component={More}/>
+        </div>
+      </router>
     );
   }
 }
