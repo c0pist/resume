@@ -1,4 +1,5 @@
 import React from 'react';
+import "./css/home_style.css";
 
 const Home = () => {
 
@@ -9,10 +10,8 @@ const Home = () => {
 
         <head>
           <meta name="viewport" content="width=device-width"/>
-          <meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
+          <meta name="description" content="Inhee Kim Blogs"/>
           <meta charset="UTF-8"/> 
-
-          <link type="text/css" rel="stylesheet" href="css/home_style.css"/>
           <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'/>
 
         </head>
@@ -94,21 +93,27 @@ const Home = () => {
               
               <div class="sectionContent">
                 <article>
-                  <h2>Job Title at Company</h2>
-                  <p class="subDetails">April 2011 - Present</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
+                  <h2>Tilesetter at Fabris & Watts (2015) Ltd.</h2>
+                  <p class="subDetails">October 2018 - Present</p>
+                  <p>
+                    <ul>
+                      <li>Set tiles in place and apply pressure to affix them to base</li>
+                      <li>Team working, reliable, adjusting to fast pace environment are required</li>
+                    </ul>
+                   <br/>
+                  </p>
                 </article>
                 
                 <article>
-                  <h2>Job Title at Company</h2>
-                  <p class="subDetails">Janruary 2007 - March 2011</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
+                  <h2>Software Developer at TMP LTD. - Dublin, Ireland</h2>
+                  <p class="subDetails">July 2013 - November 2014</p>
+                  <p>Developed / maintained Windows software tool in C#.Net.<br/>Developed / updated the website built in ASP. Net & MySQL</p>
                 </article>
                 
                 <article>
-                  <h2>Job Title at Company</h2>
-                  <p class="subDetails">October 2004 - December 2006</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
+                  <h2>Software Developer at VITCON</h2>
+                  <p class="subDetails">May 2010 - October 2012</p>
+                  <p>Developed new Windows softwares in C#.Net &<br/>VB, Developed new Atmel microchip compiling software in C#.net.<br/>Maintained and upgraded the all software projects.</p>
                 </article>
               </div>
               <div class="clear"></div>
@@ -122,14 +127,15 @@ const Home = () => {
               
               <div class="sectionContent">
                 <ul class="keySkills">
-                  <li>A Key Skill</li>
-                  <li>A Key Skill</li>
-                  <li>A Key Skill</li>
-                  <li>A Key Skill</li>
-                  <li>A Key Skill</li>
-                  <li>A Key Skill</li>
-                  <li>A Key Skill</li>
-                  <li>A Key Skill</li>
+                  <li>C#.Net</li>
+                  <li>ASP.Net</li>
+                  <li>Javascript(React)</li>
+                  <li>HTML</li>
+                  <li>MySQL</li>
+                  <li>MS Office</li>
+                  <li>Tiling skills</li>
+                  <li>Teamwork</li>
+                  <li>Leadership</li>
                 </ul>
               </div>
               <div class="clear"></div>
@@ -143,15 +149,15 @@ const Home = () => {
               
               <div class="sectionContent">
                 <article>
-                  <h2>College/University</h2>
-                  <p class="subDetails">Qualification</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
+                  <h2>ComIT - Winnipeg, MB Canada</h2>
+                  <p class="subDetails">Completion Certificate (2019)</p>
+                  <p>3 months C#.Net & ASP.Net MVC course</p>
                 </article>
                 
                 <article>
-                  <h2>College/University</h2>
-                  <p class="subDetails">Qualification</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
+                  <h2>Korea National Open University - Seoul, South Korea</h2>
+                  <p class="subDetails">Bachelor's degree(2009-2012)</p>
+                  <p>Computer Science(leave of absence)</p>
                 </article>
               </div>
               <div class="clear"></div>
