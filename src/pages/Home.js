@@ -1,6 +1,6 @@
 import React from 'react';
 import "./css/home_style.css";
-
+import Logo from "./css/profile.jpg";
 const Home = () => {
 
     let source = 
@@ -10,12 +10,16 @@ const Home = () => {
 
         <head>
           <meta name="viewport" content="width=device-width"/>
-          <meta name="description" content="Inhee Kim Blogs"/>
+          <meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
           <meta charset="UTF-8"/> 
-          <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'/>
 
+          
+          <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'/>
+          
         </head>
 
+        
+        
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="#">Inhee Kim</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,8 +56,8 @@ const Home = () => {
         
         <div id="cv" class="instaFade">
           <div class="mainDetails">
-            <div id="headshot" class="quickFade">
-              <img src="headshot.jpg" alt="Alan Smith" />
+            <div id="Profile" class="quickFade">
+              <img src={Logo} alt="Profile" />
             </div>
             
             <div id="name">
