@@ -10,16 +10,15 @@ const Home = () => {
 
         <head>
           <meta name="viewport" content="width=device-width"/>
-          <meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
+          <meta name="description" content="Inhee Kim Blog"/>
           <meta charset="UTF-8"/> 
 
           
           <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'/>
           
         </head>
+        <body class="bgColor">
 
-        
-        
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="#">Inhee Kim</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -178,6 +177,7 @@ const Home = () => {
         pageTracker._initData();
         pageTracker._trackPageview();
         </script>
+        </body>
       </React.Fragment>
       );
 
