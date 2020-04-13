@@ -66,8 +66,8 @@ const Home = () => {
               
               <div id="contactDetails" class="quickFade delayFour">
                 <ul>
-                  <li>e: <a href="mailto:joe@bloggs.com" target="_blank">ihkim920@gmail.com</a></li>
-                  <li>w: <a href="http://www.bloggs.com">www.bloggs.com</a></li>
+                  <li>e: <a href="mailto:ihkim920@gmail.com" target="_blank">ihkim920@gmail.com</a></li>
+                  <li>w: <a href="http://react.c0pist.kro.kr/">http://react.c0pist.kro.kr/</a></li>
                   <li>m: 2045991221</li>
                 </ul>
               </div>
@@ -75,20 +75,7 @@ const Home = () => {
             </div>
             
             <div id="mainArea" class="quickFade delayFive">
-              <section>
-                <article>
-                  <div class="sectionTitle">
-                    <h1>Personal Profile</h1>
-                  </div>
-                  
-                  <div class="sectionContent">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor metus, interdum at scelerisque in, porta at lacus. Maecenas dapibus luctus cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
-                  </div>
-                </article>
-                <div class="clear"></div>
-              </section>
-              
-              
+
               <section>
                 <div class="sectionTitle">
                   <h1>Work Experience</h1>
