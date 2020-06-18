@@ -80,7 +80,7 @@ class EditUserComponent extends Component{
                 
                 <form>
                     <TextField type="text"  name="username" readOnly="true"
-                    fullWidth margin ="normal" defaultValue={this.state.username}/>
+                    fullWidth margin ="normal" value={this.state.username}/>
                     <TextField type="text" placeholder="Edit your first name." name="firstName"
                     fullWidth margin ="normal" value={this.state.firstName} onChange={this.onChange} />
                     <TextField type="text" placeholder="Edit your last name." name="lastName"
