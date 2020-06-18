@@ -25,7 +25,9 @@ class UserListComponent extends Component{
     }
 
     componentDidMount() {
+        console.log('UserListComponent did amount.');
         this.reloadUserList();
+        console.log('it did loaded user list.');
     }
 
     reloadUserList = () => {
