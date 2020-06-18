@@ -6,6 +6,7 @@ class ApiService {
 
     fetchUsers() {
         return axios.get(USER_API_BASE_URL);
+        alert('it worked');
     }
 
     fetchUserByID(userID) {
