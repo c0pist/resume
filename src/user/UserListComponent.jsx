@@ -27,9 +27,7 @@ class UserListComponent extends Component{
     componentDidMount() {
         this.reloadUserList();
     }
-    componentDidUpdate() {
-        this.reloadUserList();
-    }
+
 
     reloadUserList = () => {
         ApiService.fetchUsers()
