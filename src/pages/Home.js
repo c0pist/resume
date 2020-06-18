@@ -30,7 +30,7 @@ const Home = () => {
               
               <div id="name">
                 <h1 class="quickFade delayTwo">Inhee Kim</h1>
-                <h2 class="quickFade delayThree">Software Devleoper</h2>
+                <h2 class="quickFade delayThree">Software Developer</h2>
               </div>
               
               <div id="contactDetails" class="quickFade delayFour">
