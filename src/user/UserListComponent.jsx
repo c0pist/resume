@@ -34,11 +34,11 @@ class UserListComponent extends Component{
             .then( res => {
                 this.setState({
                     users: res.data
-                })
+                });
             })
             .catch(err => {
                 console.log('reloadUserList() Error!', err);
-            })
+            });
     }
 
     deleteUser = (userID) => {
@@ -54,7 +54,7 @@ class UserListComponent extends Component{
             })
             .catch(err => {
                 console.log('deleteUser() Error!', err);
-            })
+            });
     }
 
     editUser = (ID) => {
@@ -91,7 +91,7 @@ class UserListComponent extends Component{
                                 <TableCell component="th" scope="user">{user.id}</TableCell>
                                 <TableCell align="right">{user.firstName}</TableCell>
                                 <TableCell align="right">{user.lastName}</TableCell>
-                                <TableCell align="right">{user.userName}</TableCell>
+                                <TableCell align="right">{user.username}</TableCell>
                                 <TableCell align="right">{user.age}</TableCell>
                                 <TableCell align="right">{user.salary}</TableCell>
                                 <TableCell align="right" onClick={() => this.editUser(user.id)}>

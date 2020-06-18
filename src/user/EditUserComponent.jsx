@@ -36,7 +36,7 @@ class EditUserComponent extends Component{
                 lastName: user.lastName,
                 age: user.age,
                 salary: user.salary
-            })
+            });
         })
         .catch(err => {
             console.log('loadUser() error', err);
@@ -46,7 +46,7 @@ class EditUserComponent extends Component{
     onChange = (e) => {
         this.setState({
             [e.target.name] : e.target.value
-        })
+        });
     }
 
     saveUser = (e) => {
@@ -64,7 +64,7 @@ class EditUserComponent extends Component{
             .then( res => {
                 this.setState({
                     message: user.username + ' information is modified.'
-                })
+                });
                 console.log(this.state.message);
                 this.props.history.push('/users');
             })

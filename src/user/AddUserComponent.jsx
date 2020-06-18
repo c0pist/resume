@@ -4,6 +4,7 @@ import ApiService from "../ApiService";
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import { findAllByPlaceholderText } from '@testing-library/react';
 
 class AddUserComponent extends Component{
 
@@ -24,12 +25,14 @@ class AddUserComponent extends Component{
     onChange = (e) => {
         this.setState({
             [e.target.name] : e.target.value
-        })
+        });
+        
     }
 
     saveUser = (e) => {
         e.preventDefault();
-
+        
+   
         let user = {
             username: this.state.username,
             password: this.state.password,
@@ -38,12 +41,13 @@ class AddUserComponent extends Component{
             age: this.state.age,
             salary: this.state.salary,
         }
-
+        
+     
         ApiService.addUser(user)
             .then( res => {
                 this.setState({
                     message: user.username + ' is succesfully registered.'
-                })
+                });
                 console.log(this.state.message);
                 this.props.history.push('/users');
             })
