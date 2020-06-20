@@ -113,7 +113,7 @@ const Home = () => {
                   <article>
                     <h2>Korea National Open University - Seoul, South Korea</h2>
                     <p class="subDetails">Bachelor's degree(2009-2012)</p>
-                    <p>Computer Science(leave of absence)</p>
+                    <p>Computer Science</p>
                   </article>
                 </div>
                 <div class="clear"></div>
