@@ -53,7 +53,7 @@ const Home = () => {
                 <div class="sectionContent">
                   <article>
                     <h2>Tilesetter at Fabris & Watts (2015) Ltd.</h2>
-                    <p class="subDetails">October 2018 - Present</p>
+                    <p class="subDetails">October 2018 - October 2020</p>
                     <p>
                       Set tiles in place and apply pressure to affix them to base
                       Team working, reliable, adjusting to fast pace environment are required
@@ -107,7 +107,7 @@ const Home = () => {
                   <article>
                     <h2>ComIT - Winnipeg, MB Canada</h2>
                     <p class="subDetails">Completion Certificate (2019)</p>
-                    <p>3 months C#.Net & ASP.Net MVC course</p>
+                    <p>C#.Net & ASP.Net MVC course(3 months)</p>
                   </article>
                   
                   <article>
